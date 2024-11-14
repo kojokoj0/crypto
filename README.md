@@ -2,7 +2,7 @@
 
 ### Requirements:
 - ****cryptography installed****
-- ****python file located in the same folder as the file you want to encrypt/decrypt****
+- ****crypto.py located in the same folder as the file you want to encrypt/decrypt****
 
 ### Usage:
 - Generate key:
