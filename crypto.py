@@ -45,7 +45,7 @@ def keyFileCheck(keyFile): # Funktion, kollar om en genererad nyckel existerar o
 
 def generator(): #Funktion: Generera nyckel
     key = Fernet.generate_key() 
-    with open('key.key', 'wb') as key4file: #Sparar den genererade nyckeln i filen: key.key i formen av bytes
+    with open('key.key', 'wb') as key4file:
         key4file.write(key)
 
 def callKey(): # Funktion kallar på nyckeln för användning av kryptering/dekryptering
